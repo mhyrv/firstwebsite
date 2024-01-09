@@ -1,0 +1,107 @@
+﻿body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+    background-image: url('http://static.trustedreviews.com/94/00003a9ac/40e7/infinite-warfare-2.jpg');
+}
+nav {
+	margin: 45px auto;
+	text-align: center;
+}
+
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul {
+	background: #f1f4f7;
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;
+	list-style: none;
+	position: relative ;
+	display: inline-table;
+    font-family: 'B Mahsa';
+}
+nav ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+nav ul li {
+	float: right;
+	position: relative;
+	font-weight: bold;
+}
+
+nav ul li:hover {
+	background: #ffff00;
+}
+
+nav ul li:hover a {
+	color: #000000;
+}
+
+nav ul li a {
+	display: block;
+	padding: 15px 32px;
+	color: #000000;
+	text-decoration: none;
+}
+
+nav ul ul {
+	background: #ffff00;
+	border-radius: 0px;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 200px;
+}
+nav ul ul li {
+	float: none;
+	border-top: 1px solid #ffff00;
+	border-bottom: 1px solid #ffff00;
+	position: relative;
+}
+nav ul ul li a {
+	padding: 15px 40px;
+	color: #000000;
+}	
+nav ul ul li a:hover {
+	background: #ffff99;
+}
+		
+nav ul ul ul {
+	position: absolute;
+	right: 100%;
+	top:0;
+}
+h1 {
+    font-size: 32px;
+    font-family: 'Showcard Gothic';
+    color: #ffffff;
+    border: 2px solid yellow;
+}
+h2 {
+	color: #ffffff;
+	font-size: 56px; 
+    font-family:'Call Of Ops Duty';
+}
+.hero {
+    padding: 250px 0;
+    margin: 30px;
+    text-shadow: 0 2px #000000;
+    font-family: 'Trebuchet MS', 'Helvetica';
+}
+p {
+    color: yellow;
+    font-size: 2em;
+    font-family: 'B Mahsa';
+}
